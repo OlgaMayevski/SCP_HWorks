@@ -1,0 +1,13 @@
+﻿ID: HiMTA
+_schema-version: '2.1'
+version: 0.0.1
+resources:
+-         
+        name: pt_hdi         
+        parameters:             
+        service-plan: hdi-shared             
+        service: hanatrial             
+        config: {schema: PT}
+properties:             
+   hdi-container-name: '${service-name}'         
+   type: com.sap.xs.hdi-container

@@ -1,0 +1,181 @@
+[main] WARN com.sap.di.ext.mta.cli.CliModule - Failed to detect 'mvn.cmd' falling back to 'mvn.bat'
+java.io.IOException: Cannot run program "mvn.cmd": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at com.sap.di.ext.mta.cli.CliModule.provideMavenExe(CliModule.java:128)
+	at com.sap.di.ext.mta.cli.CliModule$$FastClassByGuice$$8180538d.invoke(<generated>)
+	at com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:264)
+	at com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:173)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:148)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:65)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:148)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:62)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.RealMultibinder$RealMultibinderProvider.doProvision(RealMultibinder.java:198)
+	at com.google.inject.internal.RealMultibinder$RealMultibinderProvider.doProvision(RealMultibinder.java:151)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$Factory.get(InternalProviderInstanceBindingImpl.java:113)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:65)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:148)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:62)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.RealMultibinder$RealMultibinderProvider.doProvision(RealMultibinder.java:198)
+	at com.google.inject.internal.RealMultibinder$RealMultibinderProvider.doProvision(RealMultibinder.java:151)
+	at com.google.inject.internal.InternalProviderInstanceBindingImpl$Factory.get(InternalProviderInstanceBindingImpl.java:113)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:65)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:148)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:65)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:148)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:65)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:113)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:148)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:39)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at com.sap.di.ext.mta.cli.CliExecutor.run(CliExecutor.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.sap.di.ext.mta.cli.MtaMain.doMain(MtaMain.java:95)
+	at com.sap.di.ext.mta.cli.MtaMain.main(MtaMain.java:36)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 69 more
+[main] INFO com.sap.di.ext.mta.proc.DescriptorProcessorImpl - MTA manifest processing on 3 threads
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - arguments: [--build-target=CF, build]
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - Archive path is D:\SCP Course\First_App\First_App.mtar
+[main] DEBUG com.sap.di.ext.mta.cli.CliBuildExecutor - Starting MTA build
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignDescriptor$$impl0 for bean interface com.sap.di.ext.mta.dto.DesignDescriptor
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.Resource$$impl1 for bean interface com.sap.di.ext.mta.dto.Resource
+[main] ERROR com.sap.di.ext.mta.cli.CliExecutor - Invalid mta.yaml: Cannot create property=resources for JavaBean=DesignDescriptor{copyright=null, description=null, id=HiMTA, modules=[], parameters={}, provider=null, resources=[], schemaVersion=2.1, version=0.0.1}
+ in 'string', line 1, column 1:
+    ?ID: HiMTA
+     ^
+Cannot create property=service-plan for JavaBean=Resource{description=null, name=pt_hdi, optional=null, parameters={}, properties={}, type=null}
+ in 'string', line 6, column 9:
+            name: pt_hdi         
+            ^
+Unable to find property 'service-plan' on class: com.sap.di.ext.mta.dto.Resource
+ in 'string', line 8, column 23:
+            service-plan: hdi-shared             
+                          ^
+
+ in 'string', line 5, column 1:
+    -         
+    ^
+.
+com.sap.di.ext.mta.yaml.MtaYamlException: Invalid mta.yaml: Cannot create property=resources for JavaBean=DesignDescriptor{copyright=null, description=null, id=HiMTA, modules=[], parameters={}, provider=null, resources=[], schemaVersion=2.1, version=0.0.1}
+ in 'string', line 1, column 1:
+    ?ID: HiMTA
+     ^
+Cannot create property=service-plan for JavaBean=Resource{description=null, name=pt_hdi, optional=null, parameters={}, properties={}, type=null}
+ in 'string', line 6, column 9:
+            name: pt_hdi         
+            ^
+Unable to find property 'service-plan' on class: com.sap.di.ext.mta.dto.Resource
+ in 'string', line 8, column 23:
+            service-plan: hdi-shared             
+                          ^
+
+ in 'string', line 5, column 1:
+    -         
+    ^
+.
+	at com.sap.di.ext.mta.yaml.DescriptorYamlImpl.parseDescriptorWithDataInternal(DescriptorYamlImpl.java:59)
+	at com.sap.di.ext.mta.yaml.DescriptorYamlImpl.parseDescriptorWithData(DescriptorYamlImpl.java:47)
+	at com.sap.di.ext.mta.yaml.DescriptorYamlImpl.parseDescriptor(DescriptorYamlImpl.java:40)
+	at com.sap.di.ext.mta.cli.DescriptorMerger.parseDescriptor(DescriptorMerger.java:77)
+	at com.sap.di.ext.mta.cli.DescriptorMerger.merge(DescriptorMerger.java:53)
+	at com.sap.di.ext.mta.cli.CliBuildExecutor.build(CliBuildExecutor.java:93)
+	at com.sap.di.ext.mta.cli.CliExecutor.run(CliExecutor.java:170)
+	at com.sap.di.ext.mta.cli.CliExecutor.run(CliExecutor.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.sap.di.ext.mta.cli.MtaMain.doMain(MtaMain.java:95)
+	at com.sap.di.ext.mta.cli.MtaMain.main(MtaMain.java:36)
+Caused by: Cannot create property=resources for JavaBean=DesignDescriptor{copyright=null, description=null, id=HiMTA, modules=[], parameters={}, provider=null, resources=[], schemaVersion=2.1, version=0.0.1}
+ in 'string', line 1, column 1:
+    ?ID: HiMTA
+     ^
+Cannot create property=service-plan for JavaBean=Resource{description=null, name=pt_hdi, optional=null, parameters={}, properties={}, type=null}
+ in 'string', line 6, column 9:
+            name: pt_hdi         
+            ^
+Unable to find property 'service-plan' on class: com.sap.di.ext.mta.dto.Resource
+ in 'string', line 8, column 23:
+            service-plan: hdi-shared             
+                          ^
+
+ in 'string', line 5, column 1:
+    -         
+    ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:313)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:190)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:346)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:141)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:127)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450)
+	at org.yaml.snakeyaml.Yaml.loadAs(Yaml.java:427)
+	at com.sap.di.ext.mta.yaml.DescriptorYamlImpl.parseDescriptorWithDataInternal(DescriptorYamlImpl.java:56)
+	... 13 more
+Caused by: Cannot create property=service-plan for JavaBean=Resource{description=null, name=pt_hdi, optional=null, parameters={}, properties={}, type=null}
+ in 'string', line 6, column 9:
+            name: pt_hdi         
+            ^
+Unable to find property 'service-plan' on class: com.sap.di.ext.mta.dto.Resource
+ in 'string', line 8, column 23:
+            service-plan: hdi-shared             
+                          ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:313)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:190)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructSequenceStep2(BaseConstructor.java:275)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructSequence(BaseConstructor.java:246)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructSequence.construct(Constructor.java:539)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:298)
+	... 21 more
+Caused by: org.yaml.snakeyaml.error.YAMLException: Unable to find property 'service-plan' on class: com.sap.di.ext.mta.dto.Resource
+	at org.yaml.snakeyaml.introspector.PropertyUtils.getProperty(PropertyUtils.java:132)
+	at org.yaml.snakeyaml.introspector.PropertyUtils.getProperty(PropertyUtils.java:121)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.getProperty(Constructor.java:323)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:241)
+	... 28 more
