@@ -1,2 +1,2 @@
 # SCP_HWorks
-Sap Cloud Platform HomeWorks
+Sap Cloud Platform Home Works
